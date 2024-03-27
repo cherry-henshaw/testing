@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    /* background-image: url(../images/cha-baby-picture.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: right; */
+    /* background-size: contain; */
+}
+header{
+
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    
+}
+
+
+.nav-links{
+    list-style: none;
+}
+
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.nav-links li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav-links li a:hover{
+    cursor: pointer;
+    color: aqua;
+    transform: 1s ease;
+}
+
+
+.logo{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.logo span{
+    color: aqua;
+}
+
+
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 35px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    font-size: 20px;
+    color: black;
+    text-shadow: 0 0 0.9px aqua;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(107, 97, 97);
+    color: whitesmoke;
+    transform: 1s ease;
+}
+
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.intro {
+    /* border: 2px solid; */
+    margin-left: 50px;
+    width: 550px;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.intro h2{
+    font-size: 20px ;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-shadow: 0 0 0.9px aqua;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    
+}
+
+
+.intro h3{
+    letter-spacing: 1px;
+    /* color: rgb(59, 59, 58); */
+    font-size: 17px;
+    padding-bottom: 5px;
+
+} 
+
+
+.intro p{
+    font-size: 18px;
+    /* border: 2px solid red; */
+    color: rgb(44, 43, 43);
+    line-height: 30px;
+    
+}
+
+
+
+
+.img-div{
+    /* border: 2px solid red; */
+    margin-right: 18%;
+}
+
+
+.img{
+   
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px  gray;
+
+}
+
+
